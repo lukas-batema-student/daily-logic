@@ -50,12 +50,23 @@ function M12D13Y2022() {
   console.log();
 }
 
+function M12D14Y2022() {
+  console.log(`${c.Bright("12/13/2022")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgGreen(375.00 * (1.00 - 0.65) + "   ")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgGreen(Math.round(((((87 / 114) * 100) * 100) * 100) / 100) / 100 + "    ")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgGreen(100 - 44 + "       ")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgGreen(50 * 0.08 + "        ")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgRed((Math.round((12.1 / 37.8) * 10) / 10) * 100 + "       ")}`);
+  console.log();
+}
+
 function allDailyLogic() {
   M12D07Y2022();
   M12D08Y2022();
   M12D09Y2022();
   M12D12Y2022();
   M12D13Y2022();
+  M12D14Y2022();
 }
 
 allDailyLogic();
