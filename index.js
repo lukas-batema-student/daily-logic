@@ -90,6 +90,36 @@ function M01D04Y2023() {
   console.log();
 }
 
+function M01D05Y2023() {
+  console.log(`${c.Bright("00/05/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgYellow( + "")}`);
+  console.log();
+}
+
+function M01D06Y2023() {
+  console.log(`${c.Bright("00/06/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgYellow( + "")}`);
+  console.log();
+}
+
+function M01D09Y2023() {
+  console.log(`${c.Bright("01/09/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgGreen(Math.round((83 / 12) * 10) / 10 + "      ")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgGreen(Math.round((560 + 1520 + 764 + 833) / 4) + "      ")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgGreen(Math.round((((35.50) * (3 + 5.5 + 8.5 + 7 + 8)) / 5) * 100) / 100 + "    ")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgGreen(Math.round(((15 * 10) + (10 * 15) + (5 * 30)) / (15 + 10 + 5)) + "       ")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgGreen(Math.round((27 + 14 + 36) / 3) + "       ")}`);
+  console.log();
+}
+
 function allDailyLogic() {
   M12D07Y2022();
   M12D08Y2022();
@@ -100,6 +130,20 @@ function allDailyLogic() {
   M12D15Y2022();
   M01D03Y2023();
   M01D04Y2023();
+  M01D09Y2023();
 }
 
 allDailyLogic();
+
+// ----------------------
+//  Daily Logic Template
+// ----------------------
+function M00D00Y2023() {
+  console.log(`${c.Bright("00/00/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgYellow( + "")}`);
+  console.log();
+}
