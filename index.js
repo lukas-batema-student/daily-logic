@@ -132,7 +132,7 @@ function allDailyLogic() {
   M01D04Y2023();
   M01D05Y2023();
   M01D06Y2023();
-  // M01D09Y2023();
+  M01D09Y2023();
 }
 
 allDailyLogic();
