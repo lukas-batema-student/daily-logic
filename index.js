@@ -102,11 +102,11 @@ function M01D05Y2023() {
 
 function M01D06Y2023() {
   console.log(`${c.Bright("01/06/2023")}`);
-  console.log(`${c.Bright("Q1:")} ${c.BgYellow( + "")}`);
-  console.log(`${c.Bright("Q2:")} ${c.BgYellow( + "")}`);
-  console.log(`${c.Bright("Q3:")} ${c.BgYellow( + "")}`);
-  console.log(`${c.Bright("Q4:")} ${c.BgYellow( + "")}`);
-  console.log(`${c.Bright("Q5:")} ${c.BgYellow( + "")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgGreen(Math.round(((75 - 6) / 75) * 100) + "       ")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgRed((Math.floor(313000000 / (2.00 - 1.31)) + 313000000) + "")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgGreen(100 - 44 + "       ")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgRed(Math.round(((12000 / 85000) * 100) / 10) * 10 + "       ")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgGreen(Math.round(50 * 0.08) + "        ")}`);
   console.log();
 }
 
@@ -131,7 +131,7 @@ function allDailyLogic() {
   M01D03Y2023();
   M01D04Y2023();
   M01D05Y2023();
-  // M01D06Y2023();
+  M01D06Y2023();
   // M01D09Y2023();
 }
 
