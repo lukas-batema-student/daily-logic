@@ -130,6 +130,26 @@ function M01D10Y2023() {
   console.log();
 }
 
+function M01D11Y2023() {
+  console.log(`${c.Bright("01/11/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgGreen(Math.round((75 * (0.70 * (1024 - 750))) * 100) / 100 + "    ")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgGreen(Math.round((120 / 10) * (420 / 100)) * 1000 + "    ")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgRed(Math.round(((200 / 115) + (300 / 172.50) / 2) * 100) / 100 + "     ")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgRed(Math.floor(((8 + 6 + 6.5) / 3) + ((8 + 6 + 6.5) / 4)) + "       ")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgGreen(((100 / 60) * 18) / 2 + "       ")}`);
+  console.log();
+}
+
+function M01D12Y2023() {
+  console.log(`${c.Bright("01/12/2023")}`);
+  console.log(`${c.Bright("Q1:")} ${c.BgYellow(Math.round(((123.50 * 2) / 8) * 100) / 100 + "    ")}`);
+  console.log(`${c.Bright("Q2:")} ${c.BgYellow((Math.round((29000 / 32122) * 10000) / 10000) * 100 + "    ")}`);
+  console.log(`${c.Bright("Q3:")} ${c.BgGreen((6 / 8) * 100 + "       ")}`);
+  console.log(`${c.Bright("Q4:")} ${c.BgYellow(Math.round(((2000 / 8) / 3) * 100) / 100 + "    ")}`);
+  console.log(`${c.Bright("Q5:")} ${c.BgYellow((Math.round((60 / (2820 / 40)) * 10000) / 10000) * 100 + "    ")}`);
+  console.log();
+}
+
 function allDailyLogic() {
   M12D07Y2022();
   M12D08Y2022();
@@ -144,6 +164,8 @@ function allDailyLogic() {
   M01D06Y2023();
   M01D09Y2023();
   M01D10Y2023();
+  M01D11Y2023();
+  M01D12Y2023();
 }
 
 allDailyLogic();
